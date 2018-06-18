@@ -1,0 +1,39 @@
+
+.nav-efeito > li > a{
+    line-height: 3px;
+    margin: 7px 0;
+    border-bottom: 2px solid transparent; /* <- here */
+    transition: border-bottom 0.6s;
+    text-decoration: none; /* I added this for clarity of effect */
+}
+.nav-efeito > li > a:hover, .nav-efeito > li > a:focus {
+    border-bottom: 2px solid #32c7cfd3;
+    color: #e209098a;
+}
+.nl >li > a{
+    text-decoration: none;
+}
+
+.bonecosegredo{
+    color: #000000d3;
+    text-shadow: -1.4px -0.9px 1px #00000054 ;
+}
+.introducao{
+    color: #d30404;
+}
+.addpart:hover{
+    color: #30f83abd;
+}
+.dosort:hover{
+    color: #5e67e0d3;
+}
+.sorteio{
+    color: #5e67e0d3;
+}
+.cadastro{
+    color: #2cd432bd;
+}
+.check-verde{
+    color: #18cc18;    
+}
+
