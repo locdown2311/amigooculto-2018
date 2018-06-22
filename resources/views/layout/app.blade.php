@@ -39,12 +39,8 @@
                         
                         <ul class="navbar-nav">
                             @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}"><i class="fa fa-lg fa-key"> </i> Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}"><i class="fa fa-lg fa-user-plus"> </i> Registrar</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('login') }}"><i class="fa fa-lg fa-key"> </i> Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('register') }}"><i class="fa fa-lg fa-user-plus"> </i> Registrar</a></li>
                             @endguest
                             @auth
                             <li class="nav-item">
