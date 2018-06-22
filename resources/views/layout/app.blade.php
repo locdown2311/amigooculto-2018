@@ -27,15 +27,16 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                        @auth
+                        
                         <ul class="navbar-nav mr-auto">
+                                @auth
                                 <li class="nav-item"><a class="nav-link" href="{{ route('inicio.sorteio') }}"><i class="fa fa-lg fa-users dosort"> </i> Realizar sorteio</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('inicio.cadastro') }}"><i class="fa fa-lg fa-user-plus addpart"></i> Cadastrar participante</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('inicio.resultado') }}"><i class="fa fa-lg fa-key"> </i> Resultados</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('inicio.conf') }}"><i class="fa fa-lg fa-cogs"> </i> Configurações</a></li>
-                                                             
+                                @endauth                         
                         </ul>
-                        @endauth 
+                        
                         <ul class="navbar-nav">
                             @guest
                             <li class="nav-item">
